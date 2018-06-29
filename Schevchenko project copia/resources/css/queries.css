@@ -1,0 +1,191 @@
+@media only screen and (max-width: 1200px) {
+
+  .row { padding: 0 2%; }
+  h1 {
+    font-size: 550%;
+  }
+
+  .first-nav {
+    bottom: 5%;
+    left: 10%;
+  }
+
+  .first-nav li span {
+    font-size: 70%;
+  }
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+  body { font-size: 16px; }
+  section { padding: 30px 0; }
+  p { line-height: 145%;}
+
+  header {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-tablets.jpg');
+  }
+
+  .headline {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .first-nav {
+    display: none;
+  }
+
+  .second-nav {
+    display: block;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+  }
+
+  .second-nav a {
+    text-decoration: none;
+    color: #9b9b9b;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 1s;
+    transition: border-bottom 1s;
+  }
+
+  .second-nav a:hover {
+    border-bottom: 2px solid #9A9A9A;
+  }
+
+  .second-nav .color-dinamo:hover {
+    border-bottom: 2px solid #316FBB;
+  }
+
+  .second-nav .color-milan:hover {
+    border-bottom: 2px solid #BF332F;
+  }
+
+  .second-nav .color-chelsea:hover {
+    border-bottom: 2px solid #113F90;
+  }
+
+  .second-nav .color-national:hover {
+    border-bottom: 2px solid #F3DB4A;
+  }
+
+  .second-nav ul {
+    list-style: none;
+  }
+
+  .second-nav li {
+    display: inline-block;
+    padding: 20px 1.2%;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 400;
+    color: #555;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  body { font-size: 14px; }
+
+  header {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-small-tablets.jpg');
+  }
+
+  h1 {
+    font-size: 450%;
+  }
+
+  h1#smaller {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 220%;
+  }
+
+
+  .second-nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .second-nav ul {
+    display: none;
+  }
+
+  .second-nav li {
+    display: block;
+    padding: 10px 1.2%;
+    font-size: 90%;
+  }
+
+  .second-nav a {
+    color: #c1c1c1;
+  }
+
+  .mobile-nav {
+    display: block;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  section { padding: 25px 0; }
+
+  section img {
+    width: 96%;
+    margin-left: 2%;
+  }
+  h1 {
+    font-size: 430%;
+  }
+  h1#smaller {
+    font-size: 130%;
+  }
+
+  h2 { margin-left: 2%;}
+
+  .adjust-right { margin-left: 2%;}
+
+  .colomn {
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  .section-2006-2008 img {
+    margin-left: 2%;
+  }
+
+
+  .section-2009-2012 img {
+    margin-left: 2%;
+  }
+
+  .section-2008-2009 h2 {
+    text-align: left;
+  }
+
+  .section-1993-2012 h2 {
+    text-align: left;
+  }
+
+  .section-2008-2009 p {
+     width: 96%;
+     margin-left: 2%;
+  }
+
+  header {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-mobile.jpg');
+  }
+
+}
