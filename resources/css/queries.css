@@ -147,7 +147,7 @@
     margin-left: 2%;
   }
   h1 {
-    font-size: 430%;
+    font-size: 400%;
   }
   h1#smaller {
     font-size: 130%;
@@ -185,7 +185,9 @@
   }
 
   header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-mobile.jpg');
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-mobile-2.jpg');
+    background-position: right;
   }
+
 
 }
