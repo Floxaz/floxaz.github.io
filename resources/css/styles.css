@@ -130,8 +130,8 @@ header {
   width: 14.50%;
   display: inline-block;
   position: relative;
-  -webkit-transition: margin-right 2s;
-  transition: margin-right 2s;
+  -webkit-transition: margin-right 1s;
+  transition: margin-right 1s;
 }
 
 .first-nav li img {
@@ -139,10 +139,10 @@ header {
   height: auto;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  -webkit-transition: -webkit-filter 2s ease-in-out;
-  transition: -webkit-filter 2s ease-in-out;
-  transition: filter 2s ease-in-out;
-  transition: filter 2s ease-in-out, -webkit-filter 2s ease-in-out;
+  -webkit-transition: -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-filter 1.5s ease-in-out;
+  transition: filter 1.5s ease-in-out;
+  transition: filter 1.5s ease-in-out, -webkit-filter 1.5s ease-in-out;
 }
 
 .first-nav li img:hover {

@@ -185,7 +185,7 @@
   }
 
   header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(255, 255, 255, 0.0))), url('img/bc-mobile-2.jpg');
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0.3))), url('img/bc-mobile-2.jpg');
     background-position: right;
   }
 
